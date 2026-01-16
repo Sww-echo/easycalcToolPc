@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Inter", "sans-serif";
+  --font-body: "Inter", "sans-serif";
+
+  --color-primary: #3b82f6; /* Soft Blue */
+  --color-primary-hover: #2563eb;
+  --color-surface: #ffffff;
+  --color-background-light: #ffffff;
+  --color-background-subtle: #f9fafb; /* Gray 50 */
+  
+  --color-border-subtle: #e5e7eb; /* Gray 200 */
+  --color-border: #f1f5f9;
+  --color-text-main: #111827; /* Gray 900 */
+  --color-text-muted: #6b7280; /* Gray 500 (Secondary) */
+  --color-text-secondary: #6b7280; /* Alias */
+
+  --shadow-subtle: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-float: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-minimal: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+}
+
+/* Base Styles */
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-surface); 
+  color: var(--color-text-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Utilities Layer */
+@layer components {
+  /* Minimal Button */
+  .btn-minimal-primary {
+    @apply bg-primary text-white hover:bg-primary-hover transition-all duration-200 rounded-lg px-6 py-3 font-medium text-sm shadow-sm active:scale-95;
+  }
+
+  .btn-minimal-outline {
+    @apply border border-border-subtle text-text-main bg-white hover:bg-gray-50 hover:border-gray-300 transition-all duration-200 rounded-lg px-6 py-3 font-medium text-sm active:scale-95;
+  }
+
+  .btn-minimal-ghost {
+    @apply text-text-muted hover:text-text-main hover:bg-gray-50 transition-colors rounded-lg px-4 py-2 font-medium text-sm;
+  }
+
+  /* Minimal Input */
+  .input-minimal {
+    @apply w-full bg-white border border-border-subtle text-text-main rounded-lg py-3 px-4 text-base focus:ring-1 focus:ring-primary focus:border-primary transition-all placeholder:text-gray-300 outline-none shadow-sm;
+  }
+
+  .input-minimal-flush {
+    @apply w-full bg-transparent border-b border-border-subtle text-text-main py-2 px-0 text-lg focus:border-primary transition-colors placeholder:text-gray-300 outline-none rounded-none;
+  }
+
+  /* Minimal Card */
+  .card-minimal {
+    @apply bg-white rounded-xl border border-border-subtle p-6 hover:border-gray-300 transition-colors duration-200;
+  }
+}
+
+/* Utilities */
+.tracking-tighter {
+  letter-spacing: -0.05em;
+}
+
+input[type=range] {
+    @apply h-1 bg-gray-100 rounded-lg appearance-none cursor-pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+    @apply appearance-none w-4 h-4 bg-primary rounded-full border-2 border-white shadow-sm transition-transform hover:scale-110;
+}
+input[type=range]::-moz-range-thumb {
+    @apply w-4 h-4 bg-primary rounded-full border-2 border-white shadow-sm transition-transform;
+}
+
+/* Demo1 风格 - 极简黑白 */
+.demo1-range::-webkit-slider-thumb {
+    @apply appearance-none w-4 h-4 bg-black rounded-full border-2 border-white shadow-sm transition-transform hover:scale-110;
+}

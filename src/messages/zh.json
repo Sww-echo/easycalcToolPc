@@ -1,0 +1,288 @@
+{
+  "common": {
+    "login": "登录",
+    "getStarted": "开始使用",
+    "signIn": "登录",
+    "search": "输入搜索...",
+    "searchShort": "搜索...",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "about": "关于我们",
+    "home": "首页",
+    "finance": "金融",
+    "life": "生活",
+    "currency": "货币",
+    "unit": "单位",
+    "math": "数学",
+    "viewAll": "查看全部",
+    "reset": "重置所有",
+    "calculate": "计算",
+    "save": "保存",
+    "share": "分享",
+    "weeks": "周",
+    "months": "月",
+    "years": "年"
+  },
+  "home": {
+    "title": "计算工具，",
+    "titleHighlight": "重新定义。",
+    "description": "极简、快速、隐私优先。在浏览器中直接计算，零延迟，数据完全安全。",
+    "startNow": "立即开始",
+    "github": "GitHub",
+    "version": "v2.0 已发布",
+    "popularTools": "热门工具",
+    "categories": "分类",
+    "privacyFirst": "隐私优先",
+    "privacyDesc": "计算在本地完成，您的数据永远不会离开浏览器，确保敏感数据的完全隐私和安全。",
+    "lightningFast": "极速响应",
+    "lightningDesc": "使用 WebAssembly 优化，即时呈现结果。无服务器延迟，无加载时间——只有即时答案。"
+  },
+  "finance": {
+    "title": "金融计算器",
+    "description": "专业的贷款、投资和财务规划工具。",
+    "mortgage": {
+      "title": "房贷计算器",
+      "description": "清晰地估算您的月供。调整贷款参数，即时可视化对财务的影响。",
+      "shortDesc": "计算每月房贷还款",
+      "paymentMethod": "还款方式",
+      "equalPayment": "等额本息",
+      "equalPrincipal": "等额本金",
+      "loanAmount": "贷款金额",
+      "interestRate": "利率",
+      "loanTerm": "贷款期限",
+      "startDate": "开始日期",
+      "monthlyPayment": "预计月供",
+      "totalInterest": "总利息",
+      "totalCost": "总成本",
+      "paymentBreakdown": "还款明细",
+      "principal": "本金",
+      "interest": "利息",
+      "total": "总额",
+      "viewSchedule": "查看还款计划",
+      "proTip": "小提示",
+      "proTipText": "每月多还 $100 可以在贷款期限内节省超过 $30,000 的利息。",
+      "disclaimer": "*计算结果仅供参考，不包括房产税、房屋保险或物业费等。",
+      "years": "年",
+      "endDate": "结束日期"
+    },
+    "interest": {
+      "title": "利息计算器",
+      "description": "比较单利和复利，可视化增长。",
+      "shortDesc": "单利和复利计算",
+      "interestType": "利息类型",
+      "simple": "单利",
+      "compound": "复利",
+      "principalAmount": "本金",
+      "duration": "期限",
+      "totalAmount": "总金额",
+      "schedule": "计划表",
+      "linearGrowth": "线性增长",
+      "exponentialGrowth": "指数增长",
+      "ruleof72": "72法则",
+      "ruleof72Text": "按 {rate}% 利率，您的资金约 {years} 年翻倍（复利）。"
+    },
+    "carLoan": {
+      "title": "车贷计算器",
+      "description": "估算您的每月车贷还款和融资总成本。",
+      "shortDesc": "估算车贷月供",
+      "carPrice": "车价",
+      "downPayment": "首付",
+      "apr": "年利率 (APR)",
+      "tip": "更高的首付可以减少贷款金额和总利息支出。",
+      "disclaimer": "*此计算器仅提供估算值。实际利率和条款可能因贷款方而异。"
+    },
+    "investment": {
+      "title": "投资计算器",
+      "description": "预测您的投资随时间的复利增长。",
+      "shortDesc": "预测投资增长",
+      "initialInvestment": "初始投资",
+      "monthlyContribution": "每月追加",
+      "investmentPeriod": "投资期限",
+      "expectedReturn": "预期收益率",
+      "futureValue": "未来价值",
+      "totalContributions": "总投入",
+      "totalEarnings": "总收益",
+      "growthSchedule": "增长计划",
+      "proTip": "小提示",
+      "tip": "尽早开始并持续投入，可以通过复利显著增加您的长期财富。",
+      "disclaimer": "*此计算器假设每月持续供款并按年复利计算。实际回报会有所不同。",
+      "year": "年份",
+      "contribution": "投入",
+      "interest": "利息",
+      "balance": "余额"
+    }
+  },
+  "life": {
+    "title": "生活计算器",
+    "description": "健康指标、年龄计算和日常生活的日期工具。",
+    "bmi": {
+      "title": "BMI 计算器",
+      "description": "即时评估您的体重指数，以临床精度了解您的健康范围。",
+      "shortDesc": "评估身体质量指数",
+      "privateLocal": "隐私 & 本地",
+      "metric": "公制",
+      "imperial": "英制",
+      "height": "身高",
+      "weight": "体重",
+      "result": "结果",
+      "bmiScore": "BMI 分数",
+      "underweight": "体重过轻",
+      "normal": "正常体重",
+      "overweight": "超重",
+      "obesity": "肥胖",
+      "referenceRanges": "参考范围 (WHO)",
+      "clinicalNote": "临床说明",
+      "disclaimer": "免责声明：此计算器根据身高和体重提供估算。它不考虑肌肉量、骨密度或整体身体成分。请咨询医疗保健提供者获取专业医疗建议。",
+      "advice": {
+        "underweight": "您的 BMI 低于健康范围。建议咨询医疗保健提供者有关体重管理的策略。",
+        "normal": "您的体重在健康范围内。保持此体重有利于心血管健康。继续保持均衡饮食和定期活动。",
+        "overweight": "您的 BMI 高于健康范围。增加活动量等小的生活方式改变可以产生积极影响。",
+        "obesity": "您的 BMI 显示肥胖，这会增加健康风险。请寻求专业医疗建议。"
+      }
+    },
+    "age": {
+      "title": "年龄计算器",
+      "description": "根据出生日期计算您的精确年龄（年、月、日）。",
+      "shortDesc": "计算精确年龄",
+      "dateOfBirth": "出生日期",
+      "targetDate": "目标日期",
+      "yourAge": "您的年龄",
+      "years": "年",
+      "months": "月",
+      "days": "日",
+      "totalDays": "总天数",
+      "totalWeeks": "总周数",
+      "totalMonths": "总月数",
+      "daysToBirthday": "距生日还有 {days} 天"
+    },
+    "date": {
+      "title": "日期计算器",
+      "description": "计算两个日期之间的差异（天、周、月、年）。",
+      "shortDesc": "计算日期差",
+      "startDate": "开始日期",
+      "endDate": "结束日期",
+      "difference": "差值",
+      "totalDays": "总天数",
+      "weeks": "周",
+      "months": "月",
+      "years": "年",
+      "workdays": "工作日"
+    }
+  },
+  "currency": {
+    "title": "货币工具",
+    "description": "实时汇率货币转换。",
+    "exchange": {
+      "title": "汇率计算器",
+      "description": "使用实时汇率在世界货币之间转换。",
+      "shortDesc": "即时货币转换",
+      "amount": "金额",
+      "from": "从",
+      "to": "到",
+      "converted": "转换金额",
+      "lastUpdated": "最后更新",
+      "convertedAmount": "转换金额",
+      "ratesUpdated": "汇率更新：演示数据",
+      "note": "汇率仅供演示。连接实时 API 获取实时汇率。"
+    }
+  },
+  "unit": {
+    "title": "单位换算",
+    "description": "精确地在公制和英制单位之间转换。",
+    "length": {
+      "title": "长度换算",
+      "description": "在公制和英制长度单位之间转换。",
+      "shortDesc": "米、英尺、英寸等换算",
+      "units": {
+        "meter": "米",
+        "kilometer": "千米",
+        "centimeter": "厘米",
+        "millimeter": "毫米",
+        "mile": "英里",
+        "yard": "码",
+        "foot": "英尺",
+        "inch": "英寸"
+      },
+      "from": "从",
+      "to": "到"
+    },
+    "temperature": {
+      "title": "温度换算",
+      "description": "在摄氏度、华氏度和开尔文之间转换。",
+      "shortDesc": "摄氏、华氏、开尔文",
+      "commonReferences": "常用参考",
+      "waterFreezes": "水结冰",
+      "roomTemp": "室温",
+      "waterBoils": "水沸腾",
+      "units": {
+        "celsius": "摄氏度",
+        "fahrenheit": "华氏度",
+        "kelvin": "开尔文"
+      },
+      "from": "从",
+      "to": "到"
+    },
+    "weight": {
+      "title": "重量换算",
+      "description": "在公制和英制重量单位之间转换。",
+      "shortDesc": "千克、磅、盎司等换算",
+       "units": {
+        "kilogram": "千克",
+        "gram": "克",
+        "milligram": "毫克",
+        "pound": "磅",
+        "ounce": "盎司",
+        "stone": "英石",
+        "metricTon": "公吨"
+      },
+      "from": "从",
+      "to": "到"
+    }
+  },
+  "math": {
+    "title": "数学工具",
+    "description": "强大的日常数学计算器。",
+    "percentage": {
+      "title": "百分比计算器",
+      "description": "轻松计算百分比、增减。",
+      "shortDesc": "计算百分比、增减",
+      "calculationType": "计算类型",
+      "percentageOf": "百分比",
+      "whatPercent": "占比",
+      "increase": "增加",
+      "decrease": "减少",
+      "baseNumber": "基数",
+      "percentage": "百分比",
+      "part": "部分",
+      "whole": "整体",
+      "originalValue": "原值",
+      "result": "结果"
+    },
+    "scientific": {
+      "title": "科学计算器",
+      "shortDesc": "高级数学运算"
+    }
+  },
+  "categories": {
+    "finance": {
+      "title": "金融",
+      "description": "贷款、投资回报率、税务"
+    },
+    "currency": {
+      "title": "货币",
+      "description": "外汇 & 加密货币"
+    },
+    "unit": {
+      "title": "单位",
+      "description": "公制 & 英制"
+    },
+    "life": {
+      "title": "生活",
+      "description": "健康 & 日期"
+    },
+    "math": {
+      "title": "数学",
+      "description": "代数 & 统计"
+    }
+  }
+}

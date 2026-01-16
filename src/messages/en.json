@@ -1,0 +1,288 @@
+{
+  "common": {
+    "login": "Log in",
+    "getStarted": "Get Started",
+    "signIn": "Sign In",
+    "search": "Type to search...",
+    "searchShort": "Search...",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "about": "About",
+    "home": "Home",
+    "finance": "Finance",
+    "life": "Life",
+    "currency": "Currency",
+    "unit": "Unit",
+    "math": "Math",
+    "viewAll": "View all",
+    "reset": "Reset all values",
+    "calculate": "Calculate",
+    "save": "Save",
+    "share": "Share",
+    "weeks": "Weeks",
+    "months": "Months",
+    "years": "Years"
+  },
+  "home": {
+    "title": "Calculation tools,",
+    "titleHighlight": "reimagined.",
+    "description": "Minimalist, fast, and privacy-focused. Compute directly in your browser with zero latency and full data security.",
+    "startNow": "Start Now",
+    "github": "GitHub",
+    "version": "v2.0 Released",
+    "popularTools": "Popular Tools",
+    "categories": "Categories",
+    "privacyFirst": "Privacy First",
+    "privacyDesc": "Calculations are performed locally. Your data never leaves your browser, ensuring complete privacy and security for sensitive figures.",
+    "lightningFast": "Lightning Fast",
+    "lightningDesc": "Optimized with WebAssembly for instant results. No server latency, no loading times—just instant answers."
+  },
+  "finance": {
+    "title": "Financial Calculators",
+    "description": "Professional tools for loans, investments, and financial planning.",
+    "mortgage": {
+      "title": "Mortgage Calculator",
+      "description": "Estimate your monthly payments with clarity. Adjust loan details to visualize the impact on your finances instantly.",
+      "shortDesc": "Calculate monthly mortgage payments",
+      "paymentMethod": "Payment Method",
+      "equalPayment": "Equal Payment",
+      "equalPrincipal": "Equal Principal",
+      "loanAmount": "Loan Amount",
+      "interestRate": "Interest Rate",
+      "loanTerm": "Loan Term",
+      "startDate": "Start Date",
+      "monthlyPayment": "Estimated Monthly Payment",
+      "totalInterest": "Total Interest",
+      "totalCost": "Total Cost",
+      "paymentBreakdown": "Payment Breakdown",
+      "principal": "Principal",
+      "interest": "Interest",
+      "total": "Total",
+      "viewSchedule": "View Schedule",
+      "proTip": "Pro Tip",
+      "proTipText": "Paying an extra $100/month could save you over $30,000 in interest over the life of the loan.",
+      "disclaimer": "*Calculations are estimates only and do not include property taxes, home insurance, or HOA fees unless specified.",
+      "years": "years",
+      "endDate": "End Date"
+    },
+    "interest": {
+      "title": "Interest Calculator",
+      "description": "Compare simple and compound interest to visualize growth.",
+      "shortDesc": "Simple and compound interest",
+      "interestType": "Interest Type",
+      "simple": "Simple",
+      "compound": "Compound",
+      "principalAmount": "Principal Amount",
+      "duration": "Duration",
+      "totalAmount": "Total Amount",
+      "schedule": "Schedule",
+      "linearGrowth": "Linear Growth",
+      "exponentialGrowth": "Exponential Growth",
+      "ruleof72": "Rule of 72",
+      "ruleof72Text": "At {rate}%, your money doubles in approx {years} years (compound)."
+    },
+    "carLoan": {
+      "title": "Car Loan Calculator",
+      "description": "Estimate your monthly auto loan payments and total cost of financing.",
+      "shortDesc": "Estimate auto loan payments",
+      "carPrice": "Car Price",
+      "downPayment": "Down Payment",
+      "apr": "Interest Rate (APR)",
+      "tip": "A larger down payment reduces your loan amount and total interest paid.",
+      "disclaimer": "*This calculator provides estimates only. Actual rates and terms may vary by lender."
+    },
+    "investment": {
+      "title": "Investment Calculator",
+      "description": "Project your investment growth over time with compound returns.",
+      "shortDesc": "Project investment growth",
+      "initialInvestment": "Initial Investment",
+      "monthlyContribution": "Monthly Contribution",
+      "investmentPeriod": "Investment Period",
+      "expectedReturn": "Expected Return Rate",
+      "futureValue": "Future Value",
+      "totalContributions": "Total Contributions",
+      "totalEarnings": "Total Earnings",
+      "growthSchedule": "Growth Schedule",
+      "proTip": "Pro Tip",
+      "tip": "Starting early and contributing consistently can significantly boost your long-term wealth through compound growth.",
+      "disclaimer": "*This calculator assumes consistent monthly contributions and annual compounding. Actual returns may vary.",
+      "year": "Year",
+      "contribution": "Contribution",
+      "interest": "Interest",
+      "balance": "Balance"
+    }
+  },
+  "life": {
+    "title": "Life Calculators",
+    "description": "Health metrics, age calculations, and date tools for everyday life.",
+    "bmi": {
+      "title": "BMI Calculator",
+      "description": "Assess your body mass index instantly to understand your health range with clinical precision.",
+      "shortDesc": "Assess your body mass index",
+      "privateLocal": "Private & Local",
+      "metric": "Metric",
+      "imperial": "Imperial",
+      "height": "Height",
+      "weight": "Weight",
+      "result": "Result",
+      "bmiScore": "BMI Score",
+      "underweight": "Underweight",
+      "normal": "Normal Weight",
+      "overweight": "Overweight",
+      "obesity": "Obesity",
+      "referenceRanges": "Reference Ranges (WHO)",
+      "clinicalNote": "Clinical Note",
+      "disclaimer": "Disclaimer: This calculator provides an estimate based on height and weight. It does not account for muscle mass, bone density, or overall body composition. Please consult a healthcare provider for professional medical advice.",
+      "advice": {
+        "underweight": "Your BMI is below the healthy range. Consider consulting a healthcare provider about weight management strategies.",
+        "normal": "You are in a healthy weight range. Maintaining this weight is beneficial for cardiovascular health. Continue a balanced diet and regular activity.",
+        "overweight": "Your BMI is above the healthy range. Small lifestyle changes like increased activity can make a difference.",
+        "obesity": "Your BMI indicates obesity, which carries increased health risks. Please seek professional medical advice."
+      }
+    },
+    "age": {
+      "title": "Age Calculator",
+      "description": "Calculate your exact age in years, months, and days from your date of birth.",
+      "shortDesc": "Calculate exact age in years, months, days",
+      "dateOfBirth": "Date of Birth",
+      "targetDate": "Target Date",
+      "yourAge": "Your Age",
+      "years": "Years",
+      "months": "Months",
+      "days": "Days",
+      "totalDays": "Total Days",
+      "totalWeeks": "Total Weeks",
+      "totalMonths": "Total Months",
+      "daysToBirthday": "{days} days to birthday"
+    },
+    "date": {
+      "title": "Date Calculator",
+      "description": "Calculate the difference between two dates in days, weeks, months, and years.",
+      "shortDesc": "Find days between dates",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "difference": "Difference",
+      "totalDays": "Total Days",
+      "weeks": "Weeks",
+      "months": "Months",
+      "years": "Years",
+      "workdays": "Workdays"
+    }
+  },
+  "currency": {
+    "title": "Currency Tools",
+    "description": "Convert currencies with real-time exchange rates.",
+    "exchange": {
+      "title": "Exchange Rate Calculator",
+      "description": "Convert between world currencies with live exchange rates.",
+      "shortDesc": "Convert between currencies instantly",
+      "amount": "Amount",
+      "from": "From",
+      "to": "To",
+      "converted": "Converted Amount",
+      "lastUpdated": "Last Updated",
+      "convertedAmount": "Converted Amount",
+      "ratesUpdated": "Rates updated: Demo data",
+      "note": "Exchange rates are for demonstration purposes. Connect to a live API for real-time rates."
+    }
+  },
+  "unit": {
+    "title": "Unit Converters",
+    "description": "Convert between metric and imperial units with precision.",
+    "length": {
+      "title": "Length Converter",
+      "description": "Convert between metric and imperial length units.",
+      "shortDesc": "Convert between meters, feet, inches, etc.",
+      "units": {
+        "meter": "Meter",
+        "kilometer": "Kilometer",
+        "centimeter": "Centimeter",
+        "millimeter": "Millimeter",
+        "mile": "Mile",
+        "yard": "Yard",
+        "foot": "Foot",
+        "inch": "Inch"
+      },
+      "from": "From",
+      "to": "To"
+    },
+    "temperature": {
+      "title": "Temperature Converter",
+      "description": "Convert between Celsius, Fahrenheit, and Kelvin.",
+      "shortDesc": "Celsius, Fahrenheit, and Kelvin",
+      "commonReferences": "Common References",
+      "waterFreezes": "Water Freezes",
+      "roomTemp": "Room Temp",
+      "waterBoils": "Water Boils",
+      "units": {
+        "celsius": "Celsius",
+        "fahrenheit": "Fahrenheit",
+        "kelvin": "Kelvin"
+      },
+      "from": "From",
+      "to": "To"
+    },
+    "weight": {
+      "title": "Weight Converter",
+      "description": "Convert between metric and imperial weight units.",
+      "shortDesc": "Kilograms, pounds, ounces, etc.",
+      "units": {
+        "kilogram": "Kilogram",
+        "gram": "Gram",
+        "milligram": "Milligram",
+        "pound": "Pound",
+        "ounce": "Ounce",
+        "stone": "Stone",
+        "metricTon": "Metric Ton"
+      },
+      "from": "From",
+      "to": "To"
+    }
+  },
+  "math": {
+    "title": "Math Tools",
+    "description": "Powerful mathematical calculators for everyday use.",
+    "percentage": {
+      "title": "Percentage Calculator",
+      "description": "Calculate percentages, increases, and decreases with ease.",
+      "shortDesc": "Calculate percentages, increases, and decreases",
+      "calculationType": "Calculation Type",
+      "percentageOf": "Percentage Of",
+      "whatPercent": "What Percent",
+      "increase": "Increase",
+      "decrease": "Decrease",
+      "baseNumber": "Base Number",
+      "percentage": "Percentage",
+      "part": "Part",
+      "whole": "Whole",
+      "originalValue": "Original Value",
+      "result": "Result"
+    },
+    "scientific": {
+      "title": "Scientific Calculator",
+      "shortDesc": "Advanced mathematical operations"
+    }
+  },
+  "categories": {
+    "finance": {
+      "title": "Finance",
+      "description": "Loans, ROI, & Taxes"
+    },
+    "currency": {
+      "title": "Currency",
+      "description": "Forex & Crypto"
+    },
+    "unit": {
+      "title": "Unit",
+      "description": "Metric & Imperial"
+    },
+    "life": {
+      "title": "Life",
+      "description": "Health & Dates"
+    },
+    "math": {
+      "title": "Math",
+      "description": "Algebra & Stats"
+    }
+  }
+}
